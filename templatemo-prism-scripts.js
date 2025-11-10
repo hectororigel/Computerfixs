@@ -481,3 +481,6 @@ https://templatemo.com/tm-600-prism-flux
                 parallax.style.transform = `translateY(${scrolled * 0.5}px)`;
             }
         });
+
+
+        
