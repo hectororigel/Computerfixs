@@ -363,15 +363,14 @@ body::after {
 
 /* Hero Section with 3D Carousel */
 .hero {
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
-	padding: 120px 20px 80px;
-	background: radial-gradient(ellipse at center,
-			rgba(153, 69, 255, 0.1) 0%,
-			transparent 50%);
+	overflow: hidden;
+    min-height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0px 20px 80px;
+    background: radial-gradient(ellipse at center, rgba(153, 69, 255, 0.1) 0%, transparent 50%);
 }
 
 .carousel-container {

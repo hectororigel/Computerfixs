@@ -470,7 +470,7 @@ https://templatemo.com/tm-600-prism-flux
             setTimeout(() => {
                 const loader = document.getElementById('loader');
                 loader.classList.add('hidden');
-            }, 1500);
+            }, 100);
         });
 
         // Add parallax effect to hero section
