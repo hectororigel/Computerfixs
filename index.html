@@ -51,9 +51,10 @@ https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css
             
             <ul class="nav-menu" id="navMenu">
                 <li><a href="#home" class="nav-link active">Inicio</a></li>
+                <li><a href="#projects" class="nav-link">Projectos</a></li>
                 <li><a href="#about" class="nav-link">Nosotros</a></li>
                 <li><a href="#stats" class="nav-link">Cotización</a></li>
-                <li><a href="#skills" class="nav-link">Projectos</a></li>
+                <!--<li><a href="#skills" class="nav-link">Experiencia</a></li>-->
                 <li><a href="#contact" class="nav-link">Contacto</a></li>
                 <li><a href="/index-us.html" class="nav-link">English</a></li>
             </ul>
@@ -69,60 +70,57 @@ https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css
 
 <!-- Carousel Banner -->
  
-<section class="carousel-slider">
+<section class="carousel-slider" id="home">
 <main>
   <ul class='slider'>
     <li class='item' style="background-image: url('/images/carousel-1.jpg')">
       <div class='content'>
         <h2 class='title'>"Construimos tu sitio web"</h2>
-        <p class='description'> Presenta tu marca con originalidad e inspira
-            mayor confianza a tus clientes,  .  </p>
-        <button>Read More</button>
+        <p class='description' style="color: white; text-shadow: 2px 2px 4px #000;">Tener un sitio web para tu negocio ofrece numerosas ventajas que pueden impulsar tu crecimiento y mejorar tu presencia en el mercado.<br>
+            Presenta tu marca con originalidad e inspira
+            mayor confianza y seguridad a tus clientes con un sitio web profesional.  </p>
+        <button onclick="">Más información</button>
       </div>
     </li>
     <li class='item' style="background-image: url('/images/carousel-2.jpg')">
       <div class='content'>
-        <h2 class='title'>"Estrange Bond"</h2>
-        <p class='description'> Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-        praesentium nisi. Id laboriosam ipsam enim.  </p>
-        <button>Read More</button>
+        <h2 class='title'>"Diseños Compatibles a cualquier dispositivo"</h2>
+        <p class='description' style="color: white; text-shadow: 2px 2px 4px #000;"> Un diseño responsivo es clave para llegar a más usuarios, mejorar el posicionamiento y ofrecer una buena experiencia. <br>
+        Más del 50% del tráfico web viene de móviles; si no es responsivo, pierdes visitante </p>
+        <button>Más información</button>
       </div>
     </li>
     <li class='item' style="background-image: url('/images/carousel-3.jpg')">
       <div class='content'>
-        <h2 class='title'>"The Gate Keeper"</h2>
-        <p class='description'> Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-        praesentium nisi. Id laboriosam ipsam enim.  </p>
-        <button>Read More</button>
+        <h2 class='title'>"Creamos tu E-commerce"</h2>
+        <p class='description' style="color: white; text-shadow: 2px 2px 4px #000;">Contar con tu propio E-commerce te ofrece muchas posibilidades para vender productos o servicios por internet, sin rentas, pagos de comiciones, ganacia 100% para ti.</p>
+        <button>Más información</button>
       </div>
     </li>
     <li class='item' style="background-image: url('images/carousel-4.jpg')">
       <div class='content'>
-        <h2 class='title'>"Last Trace Of Us"</h2>
-        <p class='description'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
+        <h2 class='title'>"Manejo de redes sociales"</h2>
+        <p class='description' style="color: white; text-shadow: 2px 2px 4px #000;">
+          Las redes sociales pueden ser una herramienta muy poderosa para impulsar tu negocio, ya que te permiten conectar con tu audiencia, aumentar tu visibilidad y generar más ventas.
         </p>
-        <button>Read More</button>
+        <button>Más información</button>
       </div>
     </li>
     <li class='item' style="background-image: url('/images/carousel-5.jpg')">
       <div class='content'>
-        <h2 class='title'>"Urban Decay"</h2>
-        <p class='description'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
+        <h2 class='title'>"posicionamiento digital"</h2>
+        <p class='description' style="color: white; text-shadow: 2px 2px 4px #000;">
+          El posicionamiento o SEO  puede beneficiarte de múltiples maneras, dependiendo de si eres un negocio, una marca personal, un emprendedor o incluso una organización sin fines de lucro.
         </p>
-        <button>Read More</button>
+        <button>Más información</button>
       </div>
     </li>
     <li class='item' style="background-image: url('images/carousel-6.jpg')">
       <div class='content'>
-        <h2 class='title'>"The Migration"</h2>
-        <p class='description'> Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-        praesentium nisi. Id laboriosam ipsam enim.  </p>
-        <button>Read More</button>
+        <h2 class='title'>"Creación de contenido"</h2>
+        <p class='description' style="color: white; text-shadow: 2px 2px 4px #000;"> Mientras tu te enfocas en tus clientes nosotros nos encargamos de tu negocio
+            y de atraer mas clientes para ti mediante contenido atractivo.  </p>
+        <button>Más información</button>
       </div>
     </li>
   </ul>
@@ -137,8 +135,8 @@ https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 
-    <!-- Hero Section with 3D Carousel -->
-    <section class="hero wow slideInRight" data-wow-duration="2s" data-wow-delay="0s" id="home">
+     <!-- Hero Section with 3D Carousel -->
+    <section class="hero wow slideInRight" data-wow-duration="2s" data-wow-delay="0s" id="projects">
         <div class="carousel-container">
             <div class="carousel" id="carousel">
                 <!-- Carousel items will be generated by JavaScript -->
@@ -155,6 +153,7 @@ https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css
         </div>
     </section>
 
+   
     <!-- NEW: Prism Philosophy Section (About) -->
     <section class="philosophy-section" id="about">
         <div class="philosophy-container">
@@ -202,6 +201,7 @@ https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css
         </div>
     </section>
 
+
     <!-- Stats Section with Content -->
     <section class="stats-section" id="stats">
         <div class="section-header">
@@ -241,7 +241,7 @@ https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css
     </section>
 
     <!-- Enhanced Skills Section - Technical Arsenal -->
-    <section class="skills-section" id="skills">
+    <section class="skills-section" id="skills" style="display:none !important;">
         <div class="skills-container">
             <div class="section-header">
                 <h2 class="section-title">Technical Arsenal</h2>
