@@ -12,50 +12,50 @@
                 id: 1,
                 title: 'E-commerce',
                 description: 'Creamos tu E-commerce para que vendas tantos productos como quieras, sin necesidad de locales, oficinas, etc.',
-                image: 'images/neural-network.jpg',
-                tech: ['TensorFlow', 'Python', 'CUDA']
+                image: 'images/e-commerce.jpg',
+                tech: ['Ventas', 'Pagos online']
             },
             {
                 id: 2,
                 title: 'Sitio web profesional',
                 description: 'Presenta tu marca con originalidad es inspira mayor confianza a tus clientes.',
-                image: 'images/quantum-cloud.jpg',
-                tech: ['AWS', 'Kubernetes', 'Docker']
+                image: 'images/web-design.jpg',
+                tech: ['Atractivo', 'Simple', 'Adaptable']
             },
             {
                 id: 3,
                 title: 'Diseños personalizados',
                 description: 'Plasmamos tu diseño a la medida compatibles con todos los dispositivos.',
-                image: 'images/blockchain-vault.jpg',
-                tech: ['Ethereum', 'Solidity', 'Web3']
+                image: 'images/customized.jpg',
+                tech: ['A tu gusto', 'a la medida', 'unico']
             },
             {
                 id: 4,
                 title: 'Posicionamiento de marca',
-                description: 'Mediante .',
-                image: 'images/cyber-defense.jpg',
-                tech: ['Zero Trust', 'AI Defense', 'Encryption']
+                description: 'Mediante las mejores estrategias colocamos tu marca para que llegues a mas clientes potenciales.',
+                image: 'images/seo.jpg',
+                tech: ['Google Analytics', 'Marketing', 'SEO']
             },
             {
                 id: 5,
-                title: 'Data Nexus',
-                description: 'Big data processing platform capable of analyzing petabytes of information in real-time.',
-                image: 'images/data-nexus.jpg',
-                tech: ['Apache Spark', 'Hadoop', 'Kafka']
+                title: 'Creacion de contenido',
+                description: 'Nos especializamos en alimentar tus redes sociales con contenido atractivo informativo para tus redes sociales.',
+                image: 'images/social-media.jpg',
+                tech: ['ATRACTIVO', 'unico', 'personalizado']
             },
             {
                 id: 6,
-                title: 'AR Interface',
-                description: 'Augmented reality system for immersive data visualization and interactive experiences.',
-                image: 'images/ar-interface.jpg',
-                tech: ['Unity', 'ARCore', 'Computer Vision']
+                title: 'Creacion de video profesional',
+                description: 'Nada mejor que expresar lo que significa tu marca que con videos con contenido de calidad.',
+                image: 'images/video.jpg',
+                tech: ['Vision', 'Innovador', 'profesional']
             },
             {
                 id: 7,
-                title: 'IoT Matrix',
-                description: 'Intelligent IoT ecosystem connecting millions of devices with edge computing capabilities.',
-                image: 'images/iot-matrix.jpg',
-                tech: ['MQTT', 'Edge AI', '5G']
+                title: 'Fotografia profesional',
+                description: 'Ofrece tu catalogo de productos y servicios con originalidad con fotografias unicas y de alta calidad.',
+                image: 'images/camera.jpg',
+                tech: ['Elegante', 'Autentico',]
             }
         ];
 
@@ -137,7 +137,7 @@
                     <h3 class="card-title">${data.title}</h3>
                     <p class="card-description">${data.description}</p>
                     <div class="card-tech">${techBadges}</div>
-                    <button class="card-cta" onclick="scrollToSection('about')">Explore</button>
+                    <button class="card-cta" onclick="scrollToSection('contact')">Contactar</button>
                 </div>
             `;
             
