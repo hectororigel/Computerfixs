@@ -12,21 +12,21 @@
                 id: 1,
                 title: 'E-commerce',
                 description: 'Creamos tu E-commerce para que vendas tantos productos como quieras, sin necesidad de locales, oficinas, etc.',
-                image: 'images/e-commerce.jpg',
+                image: 'images/e-commerce.webp',
                 tech: ['Ventas', 'Pagos online']
             },
             {
                 id: 2,
                 title: 'Sitio web profesional',
                 description: 'Presenta tu marca con originalidad es inspira mayor confianza a tus clientes.',
-                image: 'images/web-design.jpg',
+                image: 'images/web-design.webp',
                 tech: ['Atractivo', 'Simple', 'Adaptable']
             },
             {
                 id: 3,
                 title: 'Diseños personalizados',
                 description: 'Plasmamos tu diseño a la medida compatibles con todos los dispositivos.',
-                image: 'images/customized.jpg',
+                image: 'images/customized.webp',
                 tech: ['A tu gusto', 'a la medida', 'unico']
             },
             {
@@ -40,21 +40,21 @@
                 id: 5,
                 title: 'Creacion de contenido',
                 description: 'Nos especializamos en alimentar tus redes sociales con contenido atractivo informativo para tus redes sociales.',
-                image: 'images/social-media.jpg',
+                image: 'images/social-media.webp',
                 tech: ['ATRACTIVO', 'unico', 'personalizado']
             },
             {
                 id: 6,
                 title: 'Creacion de video profesional',
                 description: 'Nada mejor que expresar lo que significa tu marca que con videos con contenido de calidad.',
-                image: 'images/video.jpg',
+                image: 'images/video.webp',
                 tech: ['Vision', 'Innovador', 'profesional']
             },
             {
                 id: 7,
                 title: 'Fotografia profesional',
                 description: 'Ofrece tu catalogo de productos y servicios con originalidad con fotografias unicas y de alta calidad.',
-                image: 'images/camera.jpg',
+                image: 'images/camera.webp',
                 tech: ['Elegante', 'Autentico',]
             }
         ];
