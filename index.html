@@ -304,7 +304,8 @@ https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css
                 </a>
             </div>
             
-            <form class="contact-form wow bounceInUp" data-wow-duration="1s" data-wow-delay="1.5s" id="contactForm">
+            <form  action="https://formspree.io/f/mvglzrav"
+  method="POST" class="contact-form wow bounceInUp" data-wow-duration="1s" data-wow-delay="1.5s" id="contactForm">
                 <div class="form-group">
                     <label for="name">Nombre</label>
                     <input type="text" id="name" name="name" required>
@@ -365,7 +366,7 @@ https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css
 				Hola, Bienvenido. <br>
 				Por favor escribenos, responderemos los más pronto posible!
       </p>
-			<form>
+			<form id="whatsappForm" onsubmit="sendWhatsAppMessage(event, '+5217751901995')">
 				<label for="whatsapp-name" class="whatsapp-chat-green-bubble">
 					<input type="text"
 								 id="whatsapp-name"
@@ -437,6 +438,7 @@ https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css
   </label>
 </div>
 
+<script src="js/whatsapp-chat.js"></script>
 
 
     <!-- Embeded map -->
