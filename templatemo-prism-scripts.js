@@ -446,7 +446,7 @@
         }
 
         // Form submission
-        const contactForm = document.getElementById('contactForm');
+       /* const contactForm = document.getElementById('contactForm');
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
             
@@ -460,7 +460,8 @@
             // Reset form
             contactForm.reset();
         });
-
+        */
+       
         // Loading screen
         window.addEventListener('load', () => {
             setTimeout(() => {
