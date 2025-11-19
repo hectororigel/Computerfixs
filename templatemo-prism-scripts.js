@@ -33,7 +33,7 @@
                 id: 4,
                 title: 'Posicionamiento de marca',
                 description: 'Mediante las mejores estrategias colocamos tu marca para que llegues a mas clientes potenciales.',
-                image: 'images/seo.jpg',
+                image: 'images/seo.webp',
                 tech: ['Google Analytics', 'Marketing', 'SEO']
             },
             {
